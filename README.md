@@ -22,7 +22,7 @@
 - 👥 **Friend Management**: Send friend requests, accept/decline, and discover new connections.
 - 📝 **Post Sharing**: Create, edit, and manage posts to engage with your network.
 - 🔍 **Search and Discover**: Find users and explore new profiles.
-- 📊 **Recommendations**: AI-powered suggestions to grow your network.
+- 📊 **Recommendations**: Friend suggestions to grow your network.
 - 🌐 **Responsive Design**: Optimized for all devices with reusable modular components.
 
 ---
