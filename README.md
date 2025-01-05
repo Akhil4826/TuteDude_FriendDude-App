@@ -48,8 +48,7 @@ FriendDude App is a modern social media platform built with the MERN stack (Mong
 
 ### 📝 **Registration Page**
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/40547d1f-3719-4693-bc3b-f58ddda119b7
-" alt="Registration Page" width="600px">
+  <img src="https://github.com/user-attachments/assets/40547d1f-3719-4693-bc3b-f58ddda119b7" alt="Registration Page" width="600px">
 </p>
 *Create a new account to join the FriendDude community.*
 
@@ -57,14 +56,13 @@ FriendDude App is a modern social media platform built with the MERN stack (Mong
 
 ### 🔑 **Login Page**
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/df87a486-6135-4da3-b481-c5b34b1f554e
-" alt="Login Page" width="600px">
+  <img src="https://github.com/user-attachments/assets/df87a486-6135-4da3-b481-c5b34b1f554e" alt="Login Page" width="600px">
 </p>
 *Securely log in to access your profile and connect with others.*
 
 
 
-### 🌐 **User Profile**
+### 🌐 **Home Pagee**
 <p align="center">
   <img src="https://github.com/user-attachments/assets/frienddude-profile.png" alt="User Profile" width="600px">
 </p>
@@ -81,7 +79,7 @@ FriendDude App is a modern social media platform built with the MERN stack (Mong
 ---
 ### ❌ **Unfriend and Manage Connections** & 👥 **Friend Recommendations**
 <p align="center">
-  <img src="(https://github.com/user-attachments/assets/2353fa0f-3b7e-4a8c-9967-6469a3f89867" alt="Unfriend Feature" width="600px">
+  <img src="https://github.com/user-attachments/assets/2353fa0f-3b7e-4a8c-9967-6469a3f89867" alt="Unfriend Feature" width="600px">
   <img src="https://github.com/user-attachments/assets/2f01579f-0672-453f-a281-ab2dca6bade7" alt="Friend Recommendations" width="600px">
 </p>
 *Easily manage your connections by unfriending or blocking users. Discover new connections based on shared interests and activities.*
