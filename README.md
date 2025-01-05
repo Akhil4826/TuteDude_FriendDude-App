@@ -84,7 +84,7 @@ FriendDude App is a modern social media platform built with the MERN stack (Mong
 <p align="center">
   <img src="https://github.com/user-attachments/assets/2353fa0f-3b7e-4a8c-9967-6469a3f89867" alt="Unfriend Feature" width="600px">
 </p>
-*Easily manage your connections by unfriending or blocking users. Discover new connections based on shared interests and activities.*
+Easily manage your connections by unfriending or blocking users. Discover new connections based on shared interests and activities.
 
 ---
 
