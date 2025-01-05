@@ -11,15 +11,14 @@ FriendDude App is a feature-rich social media platform built using the MERN stac
 > **Note**: The app is hosted on a free Render tier, so it might take up to **30 seconds to load**.
 
 **Test User Accounts:**
-1. **Username**: `john`  |  **Password**: `1234`
-2. **Username**: `kate`  |  **Password**: `1234`
+1. **Username**: `akhil`  |  **Password**: `123`
 
 ---
 
 ## 📸 **Snapshots**
 
 ### **Registration Page**
-![Registration](./snapshots/register.png)
+![Registration]([./snapshots/register.png](https://github.com/user-attachments/assets/5f68f604-d031-4928-81f0-f5f07c9d0f1f))
 
 ### **Login Page**
 ![Login](./snapshots/login.png)
