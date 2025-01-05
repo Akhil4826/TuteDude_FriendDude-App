@@ -21,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/Akhil4826/TuteDude_FriendDude-App/issues"
   },
-  "homepage": "https://github.com/Akhil4826/TuteDude_FriendDude-App#readme",
+  "homepage": "https://github.com/Akhil4826/TuteDude_FriendDude-App",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.20.1",
