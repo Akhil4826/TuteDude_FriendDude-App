@@ -57,7 +57,8 @@ FriendDude App is a modern social media platform built with the MERN stack (Mong
 
 ### 🔑 **Login Page**
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/frienddude-login.png" alt="Login Page" width="600px">
+  <img src="https://github.com/user-attachments/assets/df87a486-6135-4da3-b481-c5b34b1f554e
+" alt="Login Page" width="600px">
 </p>
 *Securely log in to access your profile and connect with others.*
 
