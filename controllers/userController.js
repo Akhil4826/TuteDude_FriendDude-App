@@ -312,7 +312,6 @@ exports.unfriend = (req, res, next) => {
   });
 };
 
-get user posts
  exports.getUserPosts = (req, res, next) => {
    User.findOne({ username: req.params.username })
      .populate('posts')
