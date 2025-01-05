@@ -113,9 +113,11 @@ Easily manage your connections by unfriending or blocking users. Discover new co
     ```
 2. Set up the environment variables in a `.env` file:
     ```env
-    MONGO_URI=your_mongodb_connection_string
-    JWT_SECRET=your_jwt_secret
-    CLIENT_URL=http://localhost:3000
+    MONGO_URI=mongodb+srv://akhilteotia19:password@akhil0.3d0ko.mongodb.net/?retryWrites=true&w=majority&appName=akhil0
+    SECRET=your-secret-key
+    PORT=4000
+    NODE_ENV='development'
+
     ```
 3. Install dependencies for both client and server:
     ```bash
