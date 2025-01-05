@@ -119,19 +119,15 @@ Easily manage your connections by unfriending or blocking users. Discover new co
     ```
 3. Install dependencies for both client and server:
     ```bash
-    cd server
-    npm install
 
     cd ../client
     npm install
     ```
 4. Start the development servers:
     ```bash
-    cd server
+    npm install
     npm start
 
-    cd ../client
-    npm start
     ```
 5. Access the app at `http://localhost:3000`.
 
@@ -146,16 +142,13 @@ Easily manage your connections by unfriending or blocking users. Discover new co
 
 ---
 
-## 🚀 **Future Scope** <a name="future-scope"></a>
-- **Chat Functionality**: Real-time messaging between users.
-- **Notification System**: Alerts for friend requests and post interactions.
-- **Dark Mode**: Enhanced user experience with a customizable theme.
-- **Media Sharing**: Upload and share images/videos with friends.
+## 🚀 **Additional Features Added for Bonus** <a name="future-scope"></a>
+- **Post Management**: Users can create and share posts with their friends.
+- **Likes and Comments**: Users can like and comment on posts to engage with their network.
+- **Profile Picture Customization**: Users can change their profile pictures to personalize their accounts.
 
+- 
 ---
-
-## 🌟 **Conclusion** <a name="conclusion"></a>
-FriendDude App simplifies social networking by providing users with a modern, intuitive platform to connect, share, and grow their network. With planned enhancements and a strong foundation, FriendDude is poised to become a go-to platform for building meaningful connections.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/frienddude-thankyou.png" alt="Thank You" width="400px">
