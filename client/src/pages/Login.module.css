@@ -1,0 +1,77 @@
+/* Login.module.css */
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #6a0dad; /* Purple color for the logo */
+  margin-bottom: 2rem;
+}
+
+.orSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.orSection hr {
+  width: 40%;
+  border: 1px solid #ccc;
+}
+
+.or {
+  font-size: 1.2rem;
+  margin: 0 1rem;
+  color: #aaa;
+}
+
+.registerButton {
+  display: block;
+  background-color: #ff6347; /* Orange background */
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  padding: 1rem;
+  border-radius: 5px;
+  margin-top: 2rem;
+  text-decoration: none;
+}
+
+.registerButton:hover {
+  background-color: #ff4500; /* Darker orange on hover */
+}
+
+input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+input:focus {
+  border-color: #ff6347; /* Orange focus color */
+  outline: none;
+}
+
+button {
+  background-color: #6a0dad; /* Purple background */
+  color: white;
+  font-size: 1.1rem;
+  padding: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #8a2be2; /* Darker purple */
+}

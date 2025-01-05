@@ -1,0 +1,120 @@
+.friends {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto; /* Adjust for content height */
+  padding: 1.5rem 2rem; /* More padding for spacious layout */
+  background-color: #f7faff; /* Light blue tone for friendliness */
+  border-radius: var(--border-radius-secondary); /* Rounded corners */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); /* Softer shadow */
+}
+
+.friends h2 {
+  width: 100%;
+  font-size: 1.8rem; /* Slightly larger for a bold title */
+  font-weight: 700;
+  color: var(--color-primary-dark); /* Use primary theme color */
+  margin-bottom: 2rem; /* Extra spacing below the title */
+  text-align: center;
+  border-bottom: 3px solid var(--color-primary); /* Bold underline */
+  padding-bottom: 0.7rem; /* Space between title and underline */
+  text-transform: uppercase; /* Make the title stand out */
+}
+
+.friends .friend {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 1.5rem; /* Spacious padding for a clean look */
+  margin-bottom: 1.5rem;
+  background-color: #ffffff; /* Card background */
+  border-radius: var(--border-radius-primary);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08); /* Light card shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.friends .friend:hover {
+  transform: translateY(-5px); /* Lift the card on hover */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12); /* Enhanced hover shadow */
+}
+
+.friends .link {
+  display: flex;
+  align-items: center;
+  text-decoration: none; /* Remove default link styling */
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.friends .link:hover {
+  color: var(--color-primary); /* Highlight username on hover */
+  transform: scale(1.05); /* Subtle enlargement */
+}
+
+.friends .link .usernameText {
+  color: var(--black); /* Ensure text is readable */
+  font-size: 1.3rem; /* Slightly larger usernames */
+  font-weight: 700; /* Bold for emphasis */
+  margin-left: 1.2rem; /* Adjust spacing from avatar */
+  transition: color 0.3s ease;
+}
+
+.friends .link .usernameText:hover {
+  color: var(--color-primary-dark); /* Darker hover color */
+}
+
+.friends .friend + .friend {
+  border-top: 1px solid var(--color-home-divider); /* Subtle divider */
+  margin-top: 1rem;
+}
+
+.friends .friend img {
+  width: 60px; /* Slightly larger profile pictures */
+  height: 60px;
+  border-radius: 50%; /* Circular avatars */
+  object-fit: cover; /* Proper image cropping */
+  margin-right: 1.5rem; /* Adjust spacing */
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1); /* Avatar shadow */
+  transition: transform 0.3s ease; /* Smooth animation */
+}
+
+.friends .friend img:hover {
+  transform: scale(1.1); /* Slight enlargement on hover */
+}
+
+.friends .friend-buttons {
+  display: flex;
+  gap: 0.8rem; /* Space between buttons */
+}
+
+.friends .friend-buttons button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: var(--border-radius-primary);
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.friends .friend-buttons button.accept {
+  background-color: var(--color-primary);
+  color: var(--white);
+}
+
+.friends .friend-buttons button.accept:hover {
+  background-color: var(--color-primary-dark);
+  transform: scale(1.05); /* Subtle hover effect */
+}
+
+.friends .friend-buttons button.decline {
+  background-color: #f5f5f5; /* Soft gray background */
+  color: #555555; /* Muted text color */
+}
+
+.friends .friend-buttons button.decline:hover {
+  background-color: #e4e4e4; /* Darker gray on hover */
+}

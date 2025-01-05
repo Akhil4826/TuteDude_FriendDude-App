@@ -1,0 +1,278 @@
+/* Design System Tokens */
+:root {
+  /* Color System - Core */
+  --color-brand-50: rgb(255, 244, 224);  /* Soft warm yellow */
+  --color-brand-100: rgb(255, 229, 172); /* Light mustard */
+  --color-brand-200: rgb(255, 204, 102); /* Warm honey yellow */
+  --color-brand-300: rgb(255, 169, 61);  /* Golden orange */
+  --color-brand-400: rgb(255, 138, 0);   /* Deep orange */
+  --color-brand-500: rgb(255, 98, 0);    /* Vibrant orange */
+  --color-brand-600: rgb(234, 72, 0);    /* Dark orange */
+  --color-brand-700: rgb(211, 55, 0);    /* Warm burnt orange */
+  --color-brand-800: rgb(187, 35, 0);    /* Dark reddish orange */
+  --color-brand-900: rgb(153, 20, 0);    /* Deep red */
+  
+  /* Color System - Semantic */
+  --color-success-50: rgb(240, 253, 244);
+  --color-success-500: rgb(1, 165, 1);
+  --color-success-600: rgb(22, 163, 74);
+
+  --color-error-50: rgb(254, 242, 242);
+  --color-error-500: rgb(239, 68, 68);
+  --color-error-600: rgb(220, 38, 38);
+
+  --color-warning-50: rgb(255, 251, 235);
+  --color-warning-500: rgb(245, 158, 11);
+  --color-warning-600: rgb(217, 119, 6);
+
+  /* Neutral Colors */
+  --color-gray-50: rgb(249, 250, 251);
+  --color-gray-100: rgb(243, 244, 246);
+  --color-gray-200: rgb(229, 231, 235);
+  --color-gray-300: rgb(209, 213, 219);
+  --color-gray-400: rgb(156, 163, 175);
+  --color-gray-500: rgb(107, 114, 128);
+  --color-gray-600: rgb(75, 85, 99);
+  --color-gray-700: rgb(55, 65, 81);
+  --color-gray-800: rgb(31, 41, 55);
+  --color-gray-900: rgb(17, 24, 39);
+
+  /* Elevation & Depth */
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+  --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1);
+  --shadow-inner: inset 0 2px 4px 0 rgb(0 0 0 / 0.05);
+
+  /* Typography */
+  --font-family-primary: 'Klavika', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  
+  /* Spacing */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+
+  /* Border Radius */
+  --radius-md: 0.375rem;
+  --radius-lg: 0.5rem;
+  --radius-xl: 0.75rem;
+
+  /* Transitions */
+  --transition-all: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-transform: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Base Reset */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Registration Form Styles */
+.register {
+  width: 100%;
+  max-width: 32rem;
+  margin: var(--space-8) auto;
+  padding: var(--space-8) var(--space-6);
+  background-color: white;
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-md);
+  transition: var(--transition-transform);
+}
+
+.register:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
+
+.registerHeader {
+  text-align: center;
+  margin-bottom: var(--space-8);
+}
+
+.register h2 {
+  font-family: var(--font-family-primary);
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: var(--color-gray-900);
+  margin-bottom: var(--space-2);
+}
+
+.register p {
+  color: var(--color-gray-500);
+  font-size: 1rem;
+  max-width: 32ch;
+  margin: 0 auto;
+}
+
+.inputsContainer {
+  margin-bottom: var(--space-6);
+}
+
+.inputContainer {
+  margin-bottom: var(--space-4);
+}
+
+.inputContainer label {
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--color-gray-700);
+  margin-bottom: var(--space-2);
+}
+
+.inputContainer input {
+  width: 100%;
+  padding: var(--space-3) var(--space-4);
+  font-size: 1rem;
+  color: var(--color-gray-900);
+  background-color: white;
+  border: 1px solid var(--color-gray-300);
+  border-radius: var(--radius-md);
+  transition: var(--transition-all);
+}
+
+.inputContainer input:hover {
+  border-color: var(--color-gray-400);
+}
+
+.inputContainer input:focus {
+  border-color: var(--color-brand-500);
+  box-shadow: 0 0 0 4px var(--color-brand-100);
+  outline: none;
+}
+
+/* Error State */
+.inputContainer input.error {
+  border-color: var(--color-error-500);
+}
+
+.inputContainer input.error:focus {
+  box-shadow: 0 0 0 4px var(--color-error-50);
+}
+
+/* Success State */
+.inputContainer input.success {
+  border-color: var(--color-success-500);
+}
+
+.inputContainer input.success:focus {
+  box-shadow: 0 0 0 4px var(--color-success-50);
+}
+
+/* Button Styles */
+.register button {
+  width: 100%;
+  padding: var(--space-3) var(--space-4);
+  margin-top: var(--space-4);
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+  background-color: var(--color-brand-500);
+  border: none;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  transition: var(--transition-all);
+}
+
+.register button:hover {
+  background-color: var(--color-brand-600);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-md);
+}
+
+.register button:active {
+  transform: translateY(0);
+}
+
+.register button:focus-visible {
+  outline: 2px solid var(--color-brand-500);
+  outline-offset: 2px;
+}
+
+.register button[disabled] {
+  opacity: 0.7;
+  cursor: not-allowed;
+  background-color: var(--color-gray-400);
+}
+
+.linkContainer {
+  margin-top: var(--space-6);
+  text-align: center;
+}
+
+.linkContainer a {
+  color: var(--color-brand-500);
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: var(--transition-all);
+}
+
+.linkContainer a:hover {
+  color: var(--color-brand-600);
+  text-decoration: underline;
+}
+
+/* Loading State Animation */
+.loading {
+  position: relative;
+  overflow: hidden;
+}
+
+.loading::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--color-gray-100),
+    transparent
+  );
+  transform: translateX(-100%);
+  animation: shimmer 1.5s infinite;
+}
+
+@keyframes shimmer {
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+/* Responsive Adjustments */
+@media (max-width: 640px) {
+  .register {
+    margin: var(--space-4);
+    padding: var(--space-6) var(--space-4);
+  }
+
+  .register h2 {
+    font-size: 1.5rem;
+  }
+
+  .register p {
+    font-size: 0.875rem;
+  }
+}
+
+/* Motion Reduction */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

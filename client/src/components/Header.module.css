@@ -1,0 +1,57 @@
+.header {
+  background-color: var(--color-header-background);
+  color: var(--color-header-text);
+  padding: 1rem 0; /* Increased padding for better spacing */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky; /* Sticky header for better UX */
+  top: 0; /* Stick the header to the top on scroll */
+  z-index: 1000; /* Ensure it stays above other elements */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.header a {
+  color: var(--color-header-text);
+  text-decoration: none; /* Remove underline from links */
+  font-weight: 500; /* Slightly bold for better readability */
+  transition: color 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.header a:hover {
+  color: var(--color-primary); /* Highlight link on hover */
+}
+
+.header .backButton {
+  border: none;
+  background: none;
+  color: var(--color-header-text);
+  font-size: 1rem;
+  font-weight: 500; /* Slightly bolder for better visibility */
+  position: absolute;
+  left: 1rem; /* Adjust spacing for consistency */
+  cursor: pointer;
+  transition: color 0.3s ease, transform 0.2s ease; /* Smooth hover effects */
+}
+
+.header .backButton:hover {
+  color: var(--color-primary-dark); /* Change color on hover */
+  transform: scale(1.05); /* Slight enlargement for interactivity */
+}
+
+.header .logoutButton {
+  border: none;
+  background: none;
+  color: var(--color-header-text);
+  font-size: 1rem;
+  font-weight: 500; /* Slightly bolder for better visibility */
+  position: absolute;
+  right: 1rem; /* Adjust spacing for consistency */
+  cursor: pointer;
+  transition: color 0.3s ease, transform 0.2s ease; /* Smooth hover effects */
+}
+
+.header .logoutButton:hover {
+  color: var(--color-primary-dark); /* Change color on hover */
+  transform: scale(1.05); /* Slight enlargement for interactivity */
+}

@@ -1,0 +1,113 @@
+.friendRequests {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 1.5rem 2rem; /* Increased padding for a spacious look */
+  background-color: #f7faff; /* Soft blue background for friendliness */
+  border-radius: var(--border-radius-secondary); /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.friendRequests h2 {
+  font-size: 1.8rem; /* Slightly larger for a bold title */
+  font-weight: 700;
+  color: var(--color-primary-dark); /* Use a primary theme color */
+  margin-bottom: 1.5rem;
+  text-align: center;
+  border-bottom: 2px solid var(--color-primary); /* Decorative underline */
+  padding-bottom: 0.5rem;
+  text-transform: uppercase; /* Add emphasis with uppercase text */
+}
+
+.friendRequests .noRequests {
+  font-size: 1.1rem; /* Slightly larger for better readability */
+  color: #a0aec0; /* Softer gray tone */
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.friendRequests li.friendRequest {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 1.5rem; /* Spacious padding for better readability */
+  background-color: #ffffff; /* White card-like background */
+  border-radius: var(--border-radius-primary); /* Rounded corners */
+  margin-bottom: 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08); /* Light shadow for depth */
+}
+
+.friendRequests li.friendRequest:hover {
+  transform: translateY(-3px); /* Lift the card slightly on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+}
+
+.friendRequests .link {
+  display: flex;
+  align-items: center;
+  text-decoration: none; /* Remove default link styling */
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.friendRequests .link:hover {
+  color: var(--color-primary); /* Highlight username on hover */
+  transform: scale(1.02); /* Slight enlargement for effect */
+}
+
+.friendRequests .link .usernameText {
+  font-weight: 700;
+  margin-left: 1rem;
+  color: var(--color-primary);
+  font-size: 1.2rem; /* Slightly larger for emphasis */
+  transition: color 0.3s ease;
+}
+
+.friendRequests .buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.8rem; /* Increased spacing for cleaner layout */
+}
+
+.friendRequests .buttons button {
+  min-width: 7rem; /* Slightly larger buttons for readability */
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: var(--color-primary);
+  color: var(--white);
+  border: none;
+  border-radius: var(--border-radius-primary);
+  padding: 0.6rem 0.9rem; /* Increased padding for better UX */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.friendRequests .buttons button:hover {
+  background-color: var(--color-primary-dark);
+  transform: scale(1.05); /* Slight enlargement on hover */
+}
+
+.friendRequests .buttons button.decline {
+  background-color: #f2f4f7; /* Softer gray for decline button */
+  color: #4a5568; /* Slightly darker text color for contrast */
+}
+
+.friendRequests .buttons button.decline:hover {
+  background-color: #e2e8f0; /* Slightly darker on hover */
+}
+
+.friendRequests hr {
+  width: 100%;
+  margin: 1.5rem 0; /* More spacing for cleaner separation */
+  border: none;
+  border-top: 1px solid rgba(200, 200, 200, 0.4); /* Soft divider */
+}

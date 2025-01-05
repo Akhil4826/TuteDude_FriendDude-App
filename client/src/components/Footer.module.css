@@ -1,0 +1,66 @@
+.footer {
+  background: linear-gradient(135deg, #ff7e5f, #feb47b); 
+  color: #ffffff;
+  text-align: center;
+  padding: 2.5rem 1rem;
+  font-family: 'Roboto', sans-serif; 
+  box-shadow: 0 -3px 15px rgba(0, 0, 0, 0.1);
+}
+
+.footerContent {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.8rem;
+}
+
+.socialLinks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.socialLinks h4 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.socialLinks a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.1rem;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.socialLinks a:hover {
+  color: #ffeb99; /* Softer hover color */
+  transform: translateY(-2px); /* Subtle hover animation */
+}
+
+.message {
+  font-size: 1.2rem;
+  font-weight: 400;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.9); /* Softer white */
+}
+
+.footerBottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  margin-top: 2rem;
+  padding-top: 1rem;
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.7); /* Muted text */
+}
+
+.footerBottom p {
+  margin: 0;
+}
+
+.footerBottom p span {
+  font-weight: 500;
+  color: #ffdd59; /* Highlight the "friends" keyword */
+}

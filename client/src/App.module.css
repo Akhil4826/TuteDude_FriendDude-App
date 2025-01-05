@@ -1,0 +1,113 @@
+/* CENTER CONTENT AND APPLY MAX WIDTH */
+.App {
+  width: 100%;
+  min-height: 100vh; /* Ensure the app takes up the full viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Space out header, main, and footer */
+  align-items: center;
+  background-color: #f7faff; /* Light blue background for friendliness */
+  font-family: 'Roboto', sans-serif; /* Clean and modern font */
+}
+
+/* HEADER STYLING */
+header {
+  width: 100%;
+  padding: 1rem 1.5rem; /* Add padding for spacing */
+  background-color: #ffffff; /* Clean white background for header */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  display: flex;
+  justify-content: space-between; /* Space out content in header */
+  align-items: center;
+  position: sticky;
+  top: 0; /* Stick header to the top on scroll */
+  z-index: 1000; /* Ensure header stays above other elements */
+}
+
+header h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--color-primary-dark); /* Primary theme color */
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+  gap: 1rem; /* Space between navigation links */
+}
+
+header nav a {
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  transition: color 0.3s ease;
+}
+
+header nav a:hover {
+  color: var(--color-primary-dark); /* Darker shade on hover */
+}
+
+/* MAIN CONTENT STYLING */
+main {
+  width: 100%;
+  max-width: 900px; /* Wider main content area */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 1.5rem; /* Spacious padding for a balanced look */
+  background-color: #ffffff; /* Clean white background for content */
+  border-radius: var(--border-radius-secondary); /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for a modern feel */
+  margin-top: 2rem;
+}
+
+main h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--color-primary-dark);
+  margin-bottom: 1.5rem; /* Spacing below title */
+  text-align: center;
+  border-bottom: 2px solid var(--color-primary); /* Decorative underline */
+  padding-bottom: 0.5rem;
+}
+
+main p {
+  font-size: 1rem;
+  color: #555555; /* Neutral gray for readability */
+  line-height: 1.6; /* Improve readability */
+  text-align: center;
+}
+
+/* FOOTER STYLING */
+footer {
+  width: 100%;
+  max-width: 900px;
+  padding: 1rem 1.5rem;
+  background-color: #ffffff; /* Clean background for footer */
+  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1); /* Shadow at the top for separation */
+  border-radius: var(--border-radius-secondary); /* Rounded corners */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+footer p {
+  font-size: 1rem;
+  color: #555555; /* Neutral gray text */
+  margin: 0.5rem 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--color-primary);
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: var(--color-primary-dark);
+}
