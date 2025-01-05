@@ -16,7 +16,7 @@
     "url": "git+https://github.com/Akhil4826/TuteDude_FriendDude-App.git"
   },
   "keywords": [],
-  "author": "Emanuele Favero",
+  "author": "akhil t",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Akhil4826/TuteDude_FriendDude-App/issues"
@@ -34,7 +34,7 @@
     "express-validator": "^6.14.2",
     "mongoose": "^6.7.4",
     "passport": "^0.6.0",
-    "passport-facebook": "^3.0.0",
+    "passport-tutedude": "^3.0.0",
     "passport-jwt": "^4.0.0",
     "passport-local": "^1.0.0"
   }
