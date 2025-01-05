@@ -64,23 +64,25 @@ FriendDude App is a modern social media platform built with the MERN stack (Mong
 
 ### 🌐 **Home Pagee**
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/frienddude-profile.png" alt="User Profile" width="600px">
+  <img src="https://github.com/user-attachments/assets/cb7fb704-49a9-4c29-9491-f449d21aa238" alt="Home page" width="600px">
 </p>
 *View and edit your profile, posts, and friend list.*
 
 ---
 
 ### 🔍 **Search and Add Friends**
+
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/frienddude-search.png" alt="Search Friends" width="600px">
+  <img src="https://github.com/user-attachments/assets/f0a73a63-f3b9-44c5-984e-35a0bcf2fc7b" alt="Search Friends" width="275px" style="margin-right: 20px;">
+  <img src="https://github.com/user-attachments/assets/bf125519-f5d4-4eff-968e-02f1cbab7036" alt="Add Friends" width="275px">
 </p>
-*Find and connect with users using the intuitive search feature.*
+
+*Find and connect with users using the intuitive search feature and add them to your network.*
 
 ---
 ### ❌ **Unfriend and Manage Connections** & 👥 **Friend Recommendations**
 <p align="center">
   <img src="https://github.com/user-attachments/assets/2353fa0f-3b7e-4a8c-9967-6469a3f89867" alt="Unfriend Feature" width="600px">
-  <img src="https://github.com/user-attachments/assets/2f01579f-0672-453f-a281-ab2dca6bade7" alt="Friend Recommendations" width="600px">
 </p>
 *Easily manage your connections by unfriending or blocking users. Discover new connections based on shared interests and activities.*
 
