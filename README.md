@@ -1,4 +1,5 @@
-  <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&color=4CAF50&size=30&center=true&vCenter=true&width=700&height=60&lines=🤝+FriendDude+App;🌐+Connect.+Share.+Discover.;🚀+Built+with+MERN+Stack">
+<h1 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&color=4CAF50&size=30&center=true&vCenter=true&width=700&height=60&lines=%F0%9F%A4%9D+FriendDude+App;%F0%9F%8C%90+Connect.+Share.+Discover.;%F0%9F%9A%80+Built+with+MERN+Stack">
 </h1>
 
 <p align="center">
@@ -35,6 +36,7 @@
 4. [Installation and Setup](#installation-and-setup)
 5. [Features Overview](#features-overview)
 6. [Future Scope](#future-scope)
+7. [Live Demo](#live-demo)
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
@@ -58,31 +60,30 @@ FriendDude App is a modern social media platform built with the MERN stack (Mong
 </p>
 *Securely log in to access your profile and connect with others.*
 
+---
 
-
-### 🌐 **Home Pagee**
+### 🌐 **Home Page**
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/cb7fb704-49a9-4c29-9491-f449d21aa238" alt="Home page" width="600px">
+  <img src="https://github.com/user-attachments/assets/cb7fb704-49a9-4c29-9491-f449d21aa238" alt="Home Page" width="600px">
 </p>
 *View and edit your profile, posts, and friend list.*
 
 ---
 
 ### 🔍 **Search and Add Friends**
-
 <p align="center">
   <img src="https://github.com/user-attachments/assets/f0a73a63-f3b9-44c5-984e-35a0bcf2fc7b" alt="Search Friends" width="275px" style="margin-right: 20px;">
   <img src="https://github.com/user-attachments/assets/bf125519-f5d4-4eff-968e-02f1cbab7036" alt="Add Friends" width="275px">
 </p>
-
 *Find and connect with users using the intuitive search feature and add them to your network.*
 
 ---
+
 ### ❌ **Unfriend and Manage Connections** & 👥 **Friend Recommendations**
 <p align="center">
   <img src="https://github.com/user-attachments/assets/2353fa0f-3b7e-4a8c-9967-6469a3f89867" alt="Unfriend Feature" width="600px">
 </p>
-Easily manage your connections by unfriending or blocking users. Discover new connections based on shared interests and activities.
+*Easily manage your connections by unfriending or blocking users. Discover new connections based on shared interests and activities.*
 
 ---
 
@@ -105,33 +106,32 @@ Easily manage your connections by unfriending or blocking users. Discover new co
 
 ### Setup Steps:
 1. Clone the repository:
-    
-bash
+    ```bash
     git clone https://github.com/Akhil4826/frienddude.git
     cd frienddude
+    ```
 
-2. Set up the environment variables in a .env file:
-    
-env
+2. Set up the environment variables in a `.env` file:
+    ```env
     MONGO_URI=mongodb+srv://akhilteotia19:password@akhil0.3d0ko.mongodb.net/?retryWrites=true&w=majority&appName=akhil0
     SECRET=your-secret-key
     PORT=4000
     NODE_ENV='development'
+    ```
 
 3. Install dependencies for both client and server:
-    
-bash
-
+    ```bash
     cd ../client
     npm install
+    ```
 
 4. Start the development servers:
-    
-bash
+    ```bash
     npm install
     npm start
+    ```
 
-5. Access the app at http://localhost:3000.
+5. Access the app at [http://localhost:3000](http://localhost:3000).
 
 ---
 
@@ -148,6 +148,11 @@ bash
 - **Post Management**: Users can create and share posts with their friends.
 - **Likes and Comments**: Users can like and comment on posts to engage with their network.
 - **Profile Picture Customization**: Users can change their profile pictures to personalize their accounts.
+
+---
+
+## 🌐 **Live Demo** <a name="live-demo"></a>
+Explore the working demo of FriendDude App: [FriendDude Live Demo](https://akhil4826.netlify.app/)
 
 ---
 
