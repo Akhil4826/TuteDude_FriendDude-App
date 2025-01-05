@@ -149,9 +149,8 @@ Easily manage your connections by unfriending or blocking users. Discover new co
 - **Likes and Comments**: Users can like and comment on posts to engage with their network.
 - **Profile Picture Customization**: Users can change their profile pictures to personalize their accounts.
 
-- 
 ---
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/frienddude-thankyou.png" alt="Thank You" width="400px">
+  <img src="https://pbs.twimg.com/media/FKH3LWLXIAcQXsw.jpg" alt="Thank You" width="400px">
 </p>
