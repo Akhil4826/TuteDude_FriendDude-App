@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/frienddude-logo.png" alt="FriendDude Logo" width="160px">
+  <img src="https://github.com/user-attachments/assets/fc224d11-6e8f-497c-9394-a7e857c188c0" alt="FriendDude Logo" width="160px">
 </p>
 
 <p align="center" style="font-size: 1.3em; color: #555;">
