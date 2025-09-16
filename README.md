@@ -113,7 +113,7 @@ FriendDude App is a modern social media platform built with the MERN stack (Mong
 
 2. Set up the environment variables in a `.env` file:
     ```env
-    MONGO_URI=mongodb+srv://akhilteotia19:password@akhil0.3d0ko.mongodb.net/?retryWrites=true&w=majority&appName=akhil0
+    MONGO_URI=mongodb+srv://username:password.3d0ko.mongodb.net/?retryWrites=true&w=majority&appName=akhil0
     SECRET=your-secret-key
     PORT=4000
     NODE_ENV='development'
